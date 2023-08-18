@@ -1,6 +1,6 @@
-CREATE DATABASE cuestionario2;
+CREATE DATABASE cuestionario;
 
-USE cuestionario2;
+USE cuestionario;
 
 CREATE TABLE cuestionarios (
     id_cuestionarios INT AUTO_INCREMENT PRIMARY KEY,
