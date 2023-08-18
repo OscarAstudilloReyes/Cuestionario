@@ -16,7 +16,8 @@ $res = $loginControlador->iniciarSesion($usuario, $contrasenia);
 if ($res['exito'] == 1) {
     header('Location: ../src/Vista/inicio.html');
 } else {
-    echo $res['mensaje'];
-    header('Location: index.html');
+    echo '<script>alert("Credenciales incorrectas");</script>';
+    echo '<script>window.location.href = "index.html";</script>';
+
 }
 

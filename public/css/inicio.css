@@ -1,0 +1,89 @@
+body {
+    background-image: url('../imagenes/fondo.png');
+    background-size: cover; /* Esto hará que la imagen cubra todo el viewport */
+    background-repeat: no-repeat; /* Esto evitará que la imagen se repita */
+    background-attachment: fixed; /* Esto hará que la imagen de fondo se fije en su posición */
+}
+
+
+
+
+#cabezera{
+    background-color: #1c2544;
+    box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+    -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+    -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+}
+.card{
+    background-color: #e5e5e5;
+    box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+    -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+    -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+}
+.card-title{
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #1c2544;
+    border-color: #007BFF;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #a8252d;
+    border-color: #9f0e3f;
+    font-weight: bold;
+}
+
+.btn-danger:danger {
+    background-color: #a8252d;
+}
+
+.form-check-input{
+    background-color: #a8a8a8;
+    border-color: #007BFF;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #1c2544;
+  }
+
+  input[type="radio"]:checked {
+    background-color: #1c2544;
+  }
+
+.modal-dialog{
+    box-shadow: 5px 5px 5x 0px rgba(180, 180, 207, 0.75);
+    -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+    -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+}
+.modal-body , .modal-footer{
+    background-color: #e5e5e5;
+}
+.modal-header  {
+    background-color: #1c2544;
+    font-weight: bold;
+    color:#ffff;
+}
+
+#puntajeFinal {
+    font-size: 24px;           
+    font-weight: bold;        
+    color: #e74c3c;          
+    
+    padding: 10px;          
+    border-radius: 5px;       
+    text-align: center;     
+    margin-top: 20px;         
+}
+
+#columnaTbl{
+    background-color: #1c2544;
+    font-weight: bold;
+    color:#ffff;
+}

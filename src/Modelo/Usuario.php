@@ -23,8 +23,7 @@ class Usuario
             $stmt->bindParam(':usuario', $parametros['usuario']);
             $stmt->execute();
     
-            $usuario = $stmt->fetch();
-
+            $usuario = $stmt->fetch(\PDO::FETCH_ASSOC);
 
              if ($usuario && md5($parametros['contrasenia']) ===  $usuario['contrasenia']) {
                 unset($usuario['contrasenia']); 
