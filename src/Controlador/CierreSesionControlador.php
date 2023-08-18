@@ -14,7 +14,7 @@ class CierreSesionControlador
         return [
             'mensaje' => 'Sessiones cerradas',
             'datos' => [
-                'rutaLogin' => '../../public/index.html'
+                'rutaLogin' => '../../index.html'
             ],
             'exito' => 1
         ];
