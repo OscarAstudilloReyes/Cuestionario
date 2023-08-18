@@ -24,7 +24,7 @@ Los cuestionarios se han creado en torno a diferentes temas, incluyendo:
 
 1. Clona el repositorio a tu máquina local.
 2. En la ruta src/Configuracion/bd/bd_cuestionario.sql se encuentra el script de la base de datos
-3. Ejecuta el servidor y accede a la interfaz web. : http://localhost/cuestionario/public/index.html
+3. Ejecuta el servidor y accede a la interfaz web. : http://localhost/cuestionario/index.html
 4. Utiliza uno de los usuarios de prueba para ingresar.
 5. Selecciona un cuestionario y comienza a responder las preguntas.
 
