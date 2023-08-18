@@ -27,6 +27,7 @@ Los cuestionarios se han creado en torno a diferentes temas, incluyendo:
 3. Ejecuta el servidor y accede a la interfaz web. : http://localhost/cuestionario/index.html
 4. Utiliza uno de los usuarios de prueba para ingresar.
 5. Selecciona un cuestionario y comienza a responder las preguntas.
-
+6. prueba aplicacion, accede a este enlace para probar la aplicación : https://cuestionarioapp.000webhostapp.com/
+ingresar con mozilla firefox ya que navegadores como google chrome asimila que el sitio es peligroso
 
 
